@@ -1,3 +1,6 @@
+
+/* @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700&family=Ubuntu:wght@300&display=swap'); */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@900&family=Ubuntu:wght@300&display=swap');
 body{
     font-family: "Montserrat";
 }
@@ -7,7 +10,7 @@ h1{
     font-size: 3rem;
     line-height: 1.5;
     /* color: white; */
-    color: #FFC107;
+    color: rgb(204, 255, 0);
 }
 h2{
     font-family: "Montserrat";
@@ -39,11 +42,11 @@ h3{
     position: relative;
 }
 .iphone{
-    width: 100%;
+    width: 90%;
     transform: rotate(-25deg);
     position: absolute;
-    left: 20%;
-    right: 0;
+    left: auto;
+
     
 }
 .button-grp{
@@ -81,12 +84,13 @@ h3{
     display: flex;
     align-items: center;
     justify-content: center;
+    background-color: rgb(204, 255, 0);
   }
   .container {
     width: 90%;
     max-width: 500px;
     margin: 0 auto;
-    background-color: rgb(51, 55, 59);
+    background-color: rgb(1, 1, 1);
     border-radius: 8px;
     padding: 3rem;
     display: flex;
@@ -152,14 +156,42 @@ h3{
     width: 15%;
     margin: 20px 20px 50px;
 }
+.carousel-inner{
+    background-color: #000000;
+    color: rgb(204, 255, 0);
+}
+.carousel-inner h2{
+    margin-bottom: 10%;
+    font-size: 50px;
+}
 .carousel-item{
     padding: 7% 15%;
 }
 /* pricing  */
+.img-old{
+   position: relative;
 
+    /* width: 30%;
+    height: 500px;
+    margin-right: 10%; */
+}
+.meme-btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 40%;
+    margin-bottom: 5%;
+    margin-top: 0;
+ 
+}
 #pricing{
     padding: 100px;
     text-align: center;
+    background-color:rgb(204, 255, 0);
+    color: black;
+}
+#pricing h1{
+    color: black;
 }
 .pricing-col{
     padding: 3% 2%;
